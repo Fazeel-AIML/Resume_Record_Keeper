@@ -8,7 +8,7 @@ logging.getLogger("pdfplumber").setLevel(logging.ERROR)
 # Load a lightweight summarization model (distilbart-cnn-6-6)
 tokenizer = AutoTokenizer.from_pretrained("sshleifer/distilbart-cnn-6-6")
 model = AutoModelForSeq2SeqLM.from_pretrained("sshleifer/distilbart-cnn-6-6")
-
+#soe
 def extract_text_from_pdf(pdf_path):
     """Extracts raw text from PDF using pdfplumber."""
     text = ''
